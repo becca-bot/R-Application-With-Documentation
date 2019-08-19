@@ -38,3 +38,12 @@ Once these have been installed we now have to add the libraries to be used. Add 
 	Library(ProjectPackages)
 
 To see what the functions in the application do type in ?treeModel or ?Server.
+
+## KKN and Decision Models
+Look to files KKNAttempt.R and randomForest.R for the actual model.
+
+ - The train.csv will need to be downloaded for these models to work.
+   
+ - Set the working directory to the path you have the file.  
+ - **E.g. setwd("C:/Users/Admin/Documents")**
+ - **train <- read.csv("C:/Users/Admin/Documents/train.csv")****
